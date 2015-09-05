@@ -11,21 +11,20 @@ namespace SelfServiceDemo.Utilities
 {
     public class ServiceJsonHelper
     {
-        private static string PROFILE_PULL_URL = "http://192.168.1.19:8080/OrderManagement/rest/om/profilePull";
+        private static string PROFILE_PULL_URL = "http://localhost:8080/OrderManagement/rest/om/profilePull";
 
-        private static string CHANGE_DUE_DATE_URL = "http://192.168.1.19:8080/OrderManagement/rest/om/changeDueDate";
+        private static string CHANGE_DUE_DATE_URL = "http://localhost:8080/OrderManagement/rest/om/changeDueDate";
 
-        private static string CANCEL_ORDER_URL = "http://192.168.1.19:8080/OrderManagement/rest/om/cancelOrder";
+        private static string CANCEL_ORDER_URL = "http://localhost:8080/OrderManagement/rest/om/cancelOrder";
 
-        private static string BILL_PULL_URL = "http://192.168.1.42:8080/BillingSystem/rest/selfservice?accountNumber=";
+        private static string BILL_PULL_URL = "http://localhost:8080/BillingSystem/rest/selfservice?accountNumber=";
 
-        private static string BILL_PAY_URL = "http://192.168.1.42:8080/BillingSystem/rest/paymentselfservice?accountNumber=";
+        private static string BILL_PAY_URL = "http://localhost:8080/BillingSystem/rest/paymentselfservice?accountNumber=";
 
         public static Profile PullProfile(string customerId)
         {
             Profile customProfile = null;
-            //string profileJson = GetJsonFromUrl(String.Format(@"{0}/{1}", PROFILE_PULL_URL, customerId));
-            string profileJson = File.ReadAllText(@"F:\profile.json");//REMOVE
+            string profileJson = GetJsonFromUrl(String.Format(@"{0}/{1}", PROFILE_PULL_URL, customerId));          
             if(!String.IsNullOrWhiteSpace(profileJson) && profileJson!="null")
             {
                 ProfilePull fullProfile = GetObjectFromJson<ProfilePull>(profileJson);
@@ -76,8 +75,7 @@ namespace SelfServiceDemo.Utilities
         public static Bill GetBill(string customerId)
         {
             Bill bill = null;
-            //string billJson = GetJsonFromUrl(BILL_PULL_URL+customerId);
-            string billJson = File.ReadAllText("F:\\bill.json");//REMOVE
+            string billJson = GetJsonFromUrl(BILL_PULL_URL+customerId);           
             if (!String.IsNullOrWhiteSpace(billJson) && billJson!="No Bill Found")
             {
                 bill = GetObjectFromJson<Bill>(billJson);
@@ -90,14 +88,7 @@ namespace SelfServiceDemo.Utilities
         {
             try
             {
-            //    string[] monthNames = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" };
-            //    DateTime today= DateTime.Now.Date;
-            //    string day = today.Day.ToString();
-            //    string month = monthNames[today.Month-1];
-            //    string year = today.Year.ToString();
-            //    string date = day+"-"+month+"-"+year;
-                //string billJson = GetJsonFromUrl(String.Format("{0}{1}&amount={2}&paymentdate={3}",BILL_PAY_URL,customerId,amountPaid,billDate));
-                string billJson = File.ReadAllText("F:\\bill.json");//REMOVE
+                string billJson = GetJsonFromUrl(String.Format("{0}{1}&amount={2}&paymentdate={3}",BILL_PAY_URL,customerId,amountPaid,billDate));               
                 if (!String.IsNullOrWhiteSpace(billJson))
                 {
                     DataAccessHelper.LogPaidBill(customerId, billDate);

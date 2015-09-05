@@ -19,3 +19,24 @@ c:\users\nithin\documents\visual studio 2015\Projects\SelfServiceDemo\SelfServic
 c:\users\nithin\documents\visual studio 2015\Projects\SelfServiceDemo\SelfServiceDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 c:\users\nithin\documents\visual studio 2015\Projects\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.dll
 c:\users\nithin\documents\visual studio 2015\Projects\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.pdb
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\csc.exe
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\vbc.exe
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\SelfServiceDemo.dll.config
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\SelfServiceDemo.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\SelfServiceDemo.pdb
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Oracle.DataAccess.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.dll
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.pdb

@@ -76,7 +76,7 @@ namespace SelfServiceDemo.Models
 
         public static bool TryRegister(User user)
         {
-            if(DataAccessHelper.IsUserNameAvailable(user.Username) && DataAccessHelper.IsCustomerIdAvailable(user.CustomerId))
+            if (DataAccessHelper.IsUserNameAvailable(user.Username) && DataAccessHelper.IsCustomerIdAvailable(user.CustomerId) && ServiceJsonHelper.PullProfile(user.CustomerId) != null)
             {
                 DataAccessHelper.RegisterUser(user);
                 return true;
