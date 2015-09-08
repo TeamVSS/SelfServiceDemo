@@ -37,6 +37,6 @@ C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Self
 C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Oracle.DataAccess.dll
 C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.dll
 C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.pdb
+C:\Users\Administrator\Documents\GitHub\SelfServiceDemo\SelfServiceDemo\obj\Debug\SelfServiceDemo.csprojResolveAssemblyReference.cache

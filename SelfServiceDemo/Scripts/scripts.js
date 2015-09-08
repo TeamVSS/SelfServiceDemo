@@ -1,4 +1,16 @@
-﻿
+﻿window.onload = function () {
+    var error = window.location.search.indexOf("error=true");
+    if (error > -1) {
+        if (window.location.search.indexOf("tab=login") > -1) {
+            $("#loginError").show();
+
+        }
+        else {
+            $("#registerError").show();
+            toRegisterTab();
+        }
+    }
+}
 function changeColor() {
     document.getElementById("securityQuestion").style.color = "#333";
 }

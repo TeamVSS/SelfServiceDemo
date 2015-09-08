@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SelfServiceDemo.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Order status</title>
+    <link rel="stylesheet" href="Content/Site1.css" />
+    <link rel="stylesheet" href="Content/Site1.css" />
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="Content/bootstrap-theme.min.css" />    
+    <link rel="stylesheet" href="Content/bootstrap-theme.css" />
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .style1
+        {
+            color: #000000;
+        }
+        .style2
+        {
+            font-size: x-large;
+        }
+        .footer
+         {
+           clear: both;
+           position: relative;
+           z-index: 10;
+           height: 5em;
+           margin-top: -3em;
+           background-color:transparent;
+           font-weight:bolder;
+         }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin-left:50px;margin-right:50px;background-color:White">
+   <hr />   
+    <p style="text-align:right">
+    <span style="margin-left:1px"><img src="Images/logo.png" id="logoutimg" style="width:150px; height:150px;" align="left" /></span>    
+    <a href="Logout.aspx" class="style2">Logout</a></p>
+    <ul class="nav navbar-nav" >      
+        <li class="active"><a href="OrderStatus.aspx" class="style1"><strong class="style2">Order Status</strong></a></li>
+        <li><a href="BillView.aspx" class="style1"><strong class="style2">Bill View</strong></a></li>
+        <li><a href="BillPay.aspx" class="style1"><strong class="style2">Bill Pay</strong></a></li> 
+        <li><a href="ReportRepair.aspx" class="style1"><strong class="style2">Report Repair</strong></a></li>
+    </ul>
+    
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>       
+    </form>
+  <div class="footer">
+    <hr />
+    © 2015 Verizon
+    <br />
+    <a style="color:dimgrey" href="http://www.verizon.com/about/">About Verizon</a>  |  <a style="color:dimgrey" href="https://www.verizon.com/support/residential/contact-us/index.htm"> Contact Us</a>  |  <a style="color:dimgrey" href="http://www.verizon.com/home/sitemap/">Site Map</a>  |  <a style="color:dimgrey" href="http://www.verizon.com/about/terms/">Terms and Conditions</a>  |  <a style="color:dimgrey" href="http://www.verizon.com/about/privacy/"> Privacy Policy </a>  |  <a style="color:dimgrey" href="http://www.verizon.com/about/privacy/aboutourads/">About Our Ads</a>  |  <a style="color:dimgrey" href="http://www.verizon.com/home/fios/advertising-sales.html">Advertise With Us</a>                
+    <br />
+  </div>     
+</html>

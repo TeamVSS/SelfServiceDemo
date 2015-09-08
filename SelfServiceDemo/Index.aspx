@@ -1,4 +1,3 @@
-
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="SelfServiceDemo.Index" %>
 
 <!DOCTYPE html>
@@ -58,8 +57,8 @@ div#slider {
 }
 
 #slider {
-    width: 1100px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 div#slider figure img { width: 20%; float: left; }
